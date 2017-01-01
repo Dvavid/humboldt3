@@ -1,3 +1,7 @@
+/* This is a customized version of the 'clean theme' of moodle.
+Essentially I changed a few things in the custom.css to improve the look of my high-school's Moodle platform.
+Since I am not a professional web designer/developer I'd appreciate feedback or pull requests to make it a better theme. Thank You! David
+----------------------------------------*/
 
 /* How to copy and customise this theme.
 ----------------------------------------*/
