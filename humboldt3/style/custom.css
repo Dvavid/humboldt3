@@ -1,0 +1,217 @@
+/* Custom CSS
+-------------------------*/
+div.logo {
+    background: url([[setting:logo]]) no-repeat 0 0;
+    display: block;
+    float: left;
+    height: 75px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: Quicksand, sans-serif;
+	font-weight: 400;
+}
+
+.dir-rtl div.logo {
+    background: url([[setting:logo]]) no-repeat 100% 0;
+    display: block;
+    float: right;
+}
+
+body{
+	background: #f7f7f7;
+	font-family: "Maven Pro";
+}
+
+.block {
+    min-height: 20px;
+    padding: 19px;
+    padding: 8px 0;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    border: unset;
+    border-bottom: 1px solid #CCCCCC;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.forumpost  {
+    min-height: 20px;
+    padding: 19px;
+    padding: 6px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    border: none;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-color: #CCCCCC;
+    border-radius: 0px;
+    box-shadow: none;
+
+}
+
+.userprofile .profile_tree section {
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    border: none;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-color: #CCCCCC;
+    border-radius: 0px;
+    box-shadow: none;
+
+
+}
+
+.navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner {
+    box-shadow: none;
+    border: unset;
+    border-bottom: 1px solid #CCCCCC;
+    border-radius: 0;
+    background: #ffffff;
+    color: #333333;
+}
+
+.usermenu {
+    float: right;
+    min-height: 20px;
+    padding: 0px;
+    margin: 0px;
+    border: unset;
+    box-shadow: none;
+    color: #CCCCCC;
+}
+
+.usermenu .moodle-actionmenu .toggle-display:hover {
+    color: #FFF;
+    background-color: #a50d08;
+}
+
+.usermenu .moodle-actionmenu .toggle-display:focus {
+    color: #FFF;
+    background-color: #a50d08;
+}
+
+.jsenabled .moodle-actionmenu[data-enhance] .toggle-display.textmenu .caret {
+    border-top-color: #797979;
+}
+
+.jsenabled .usermenu .moodle-actionmenu[data-enhance]:hover .toggle-display.textmenu .caret {
+    border-top-color: #ffffff;
+}
+
+
+.jsenabled .usermenu .moodle-actionmenu>.menubar {
+    margin: 0px;
+}
+
+.jsenabled .moodle-actionmen[data-enhance] .toggle-display.textmenu .caret:hover, .jsenabled .moodle-actionmenu[data-enhance] .toggle-display.textmenu .caret:active {
+    border-top-color: #ffffff;
+}
+
+.jsenabled .usermenu .moodle-actionmenu.show {
+    background-color: #FFFFFF;
+}
+
+.jsenabled .usermenu .moodle-actionmenu.show .toggle-display.textmenu {
+    background-color: #a50d08;
+    color: #ffffff;
+}
+
+.jsenabled .usermenu .moodle-actionmenu[data-enhanced].show .menu {
+    border: none;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    border-radius: 0px;
+    box-shadow: 0 0 0 #ffffff;
+}
+
+
+.jsenabled .usermenu .moodle-actionmenu.show .menu a {
+    padding: 10px 20px;
+}
+
+.moodle-actionmenu[data-enhanced].show .menu .iconsmall, .moodle-actionmenu[data-enhanced].show .menu .smallicon {
+    padding: 4px;
+    margin: 4px 4px 4px -10px;
+}
+
+.jsenabled .usermenu .moodle-actionmenu>.menu .filler {
+    margin: 0;
+}
+
+.jsenabled .usermenu .moodle-actionmenu.show .menu a:hover {
+    text-decoration: none;
+    background-color: #a50d08;
+    background-image: none;
+    filter: unset;
+}
+
+.navbar .brand {
+    display: block;
+    float: left;
+    padding: 10px 20px 10px;
+    margin-left: -20px;
+    font-size: 20px;
+    font-weight: 200;
+    color: #333333;
+    text-shadow: none;
+    background-image: url("Humboldtlogo_wei_gif.gif");
+    background-color: none;
+}
+
+button, input.form-submit, input[type="button"], input[type="submit"], input[type="reset"] {
+    display: inline-block;
+    padding: 4px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 20px;
+    color: #ffffff;
+    text-align: center;
+    text-shadow: none;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: #a50d08;
+    border: 0px;
+    background-image: none;
+    border-color: none;
+    border-radius: 0px;
+    filter: unset;
+    box-shadow: none;
+}
+
+button:hover, input.form-submit:hover, input[type="button"]:hover, input[type="submit"]:hover, input[type="reset"]:hover, button:focus, input.form-submit:focus, input[type="button"]:focus, input[type="submit"]:focus, input[type="reset"]:focus {
+    background-position: 0;
+    transition: none;
+    background-color: #464646;
+    color: #ffffff;
+    outline: none;
+    text-decoration: none;
+}
+
+textarea, select, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+    background-color: #fff;
+    border: 1px solid #CCCCCC;
+    box-shadow: none;
+    transition: border linear .2s,box-shadow linear .2s;
+    border-radius: 0px;
+}
+
+input.form-submit, input#id_submitbutton, input#id_submitbutton2, .path-admin .buttons input[type="submit"], td.submit input {
+    color: #fff;
+    text-shadow: none;
+    background-image: none;
+    background-color: #005aa8;
+    border: none;
+    filter: unset;
+}
+
+/* Custom CSS Settings
+-------------------------*/
+[[setting:customcss]]
